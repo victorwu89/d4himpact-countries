@@ -1,3 +1,4 @@
+const COUNTRY_ATTRIBUTES = "countries-worked where-we-work_container"
 var arr = [];
 google.charts.load('current', {
 		'packages':['geochart'],
