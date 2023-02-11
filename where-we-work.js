@@ -228,7 +228,17 @@ function drawVisualization() {
 			}
 			if( message === '#Error'){ return; }
 			arr.push(message);
-			$.featherlight(`${message}`);
+			let country = document.getElementById(message);
+			let old_country;
+			//add functionality to check message or country then do the following
+			//if country with active does not match remove it and display country
+			if(document.querySelectorAll('.countries-worked.active').length == 0){
+				country.setAttribute('class', COUNTRY_ATTRIBUTES + ' active');
+			}else{
+				document.querySelectorAll('.countries-worked.active')[0].setAttribute('class', COUNTRY_ATTRIBUTES)
+			  	country.setAttribute('class', COUNTRY_ATTRIBUTES + ' active');
+			}
+			//$.featherlight(`${message}`);
 		}catch (err){
 			console.log(err);
 		}
