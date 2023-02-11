@@ -229,8 +229,10 @@ function drawVisualization() {
 			}
 			if( message === '#Error'){ return; }
 			arr.push(message);
+			if (message.indexOf('#') !== -1){
+        		    message = message.slice(1);
+       			}
 			let country = document.getElementById(message);
-			let old_country;
 			//add functionality to check message or country then do the following
 			//if country with active does not match remove it and display country
 			if(document.querySelectorAll('.countries-worked.active').length == 0){
