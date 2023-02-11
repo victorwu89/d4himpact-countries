@@ -293,6 +293,46 @@ div.areas-of-work-h2{
     vertical-align: baseline
 }
 
+/* MAP FIX TO DISPLAY DROPDOWN INSTEAD OF LIGHTBOX */
+.countries-worked.where-we-work_container{display: none;}
+.countries-worked.where-we-work_container.active{
+	display: block;
+  animation: countrytextmotion 3s ease-in;
+  
+  /* Safari and Chrome */
+	-webkit-animation:mymove 3s;
+	-webkit-animation-iteration-count:1;
+}
+.countries-worked.where-we-work_container > div + hr{border-color:black;clear:both;margin: 5px 0 10px;}
+.countries-worked.where-we-work_container > div.case-studies-header{  
+	  display: inline-block;
+    font-weight: bold;
+    font-family: Aileron, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 1.5%;
+ }
+ .countries-worked.where-we-work_container > div.case-studies-spacer{
+    display: inline-block;
+    width: 70%;
+    padding-right: 2%;
+ }
+ .where-we-work_container .vignette-wrapper{border-right: none;}
+ /* animations */
+ @keyframes countrytextmotion{
+ 	from {opacity:0;}
+  to {opacity:1;}
+ }
+ 
+ /* Safari and Chrome */
+ @-webkit-keyframes mymove 
+ {
+ from {opacity: 0;}
+ to {opacity: 1;}
+ }
+/* end MAP FIX */
+
+
 /* MOBILE, Tablet, Responsive Start*/
 @media only screen and (max-width: 479px){
 	.philanthropies-data-wrapper .headline{
