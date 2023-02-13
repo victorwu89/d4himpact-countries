@@ -298,12 +298,12 @@ div.areas-of-work-h2{
 }
 
 /* MAP FIX TO DISPLAY DROPDOWN INSTEAD OF LIGHTBOX */
-.countries-worked.where-we-work_container{display: none;}
+.countries-worked.where-we-work_container{display: none;margin-top:3%;margin-bottom:3%;}
 .countries-worked.where-we-work_container.active{
 	display: block;
-  animation: countrytextmotion 3s ease-in;
+        animation: countrytextmotion 3s ease-in;
   
-  /* Safari and Chrome */
+  	/* Safari and Chrome */
 	-webkit-animation:mymove 3s;
 	-webkit-animation-iteration-count:1;
 }
