@@ -142,6 +142,9 @@ div.areas-of-work-h2{
   padding-right: 2%;
   width:70%;
 }
+.countries-worked.where-we-work_container .vignette-wrapper{
+  font-size: 15px;
+}
 .vignette-wrapper p{
 	line-height: 19px;
 }
@@ -155,6 +158,9 @@ div.areas-of-work-h2{
     height: 85%;
     font-size: 11.5px;
     vertical-align:top;
+}
+.type-work.updated, .type-work.case-studies {
+    font-size: 13px;
 }
 .type-work.updated {
     width: 100%;
