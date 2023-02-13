@@ -149,21 +149,25 @@ div.areas-of-work-h2{
 	 font-family: Montserrat,sans-serif;
 }
 .type-work{
-	width: 25%;
-	display:inline-block;
-	padding-left: 1.5%;
-  height: 85%;
-  font-size: 11.5px;
-  vertical-align:top;
+    width: 25%;
+    display:inline-block;
+    padding-left: 1.5%;
+    height: 85%;
+    font-size: 11.5px;
+    vertical-align:top;
+}
+.type-work.updated {
+    width: 100%;
+    padding-left: 0%;
 }
 .type-work p{
-	margin-bottom:0px;
-  line-height:19px;
-  font-weight: 600;
+     margin-bottom:0px;
+     line-height:19px;
+     font-weight: 600;
 }
 .type-work .less-lineHeight{
-	line-height:14px;
-  margin-top:3px;
+     line-height:14px;
+     margin-top:3px;
 }
 .type-work .less-lineHeight + p{
   margin-top:4px;
