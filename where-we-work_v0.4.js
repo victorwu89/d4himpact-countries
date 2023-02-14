@@ -131,7 +131,8 @@ function drawVisualization() {
 	function regionClickHandler(){
 		var selection =  chart.getSelection(),
 				message = '',
-		    		tempMessage;
+		    		tempMessage,
+		    		baseURL;
 		try {
 			switch(selection[0].row){
 					case 0:
@@ -231,6 +232,7 @@ function drawVisualization() {
 			if( message === '#Error'){ return; }
 			arr.push(message);
 			tempMessage = message;
+			baseURL = new URL(window.location.href)
 			if (message.indexOf('#') !== -1){
         		    message = message.slice(1);
        			}
@@ -243,7 +245,7 @@ function drawVisualization() {
 				document.querySelectorAll('.countries-worked.active')[0].setAttribute('class', COUNTRY_ATTRIBUTES)
 			  	country.setAttribute('class', COUNTRY_ATTRIBUTES + ' active');
 			}
-			window.location.href = `${window.location.href}${tempMessage}`
+			window.location.href = `${baseURL.origin}${baseURL.pathname}${tempMessage}`
 			//$.featherlight(`${message}`);
 		}catch (err){
 			console.log(err);
