@@ -130,7 +130,8 @@ function drawVisualization() {
 	var chart = new google.visualization.GeoChart(document.getElementById('map_1541709038503'));
 	function regionClickHandler(){
 		var selection =  chart.getSelection(),
-				message = '';
+				message = '',
+		    		tempMessage;
 		try {
 			switch(selection[0].row){
 					case 0:
@@ -229,6 +230,7 @@ function drawVisualization() {
 			}
 			if( message === '#Error'){ return; }
 			arr.push(message);
+			tempMessage = message;
 			if (message.indexOf('#') !== -1){
         		    message = message.slice(1);
        			}
@@ -241,6 +243,7 @@ function drawVisualization() {
 				document.querySelectorAll('.countries-worked.active')[0].setAttribute('class', COUNTRY_ATTRIBUTES)
 			  	country.setAttribute('class', COUNTRY_ATTRIBUTES + ' active');
 			}
+			window.location.href = `${window.location.href}${tempMessage}`
 			//$.featherlight(`${message}`);
 		}catch (err){
 			console.log(err);
