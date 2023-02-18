@@ -237,6 +237,13 @@ function drawVisualization() {
         		    message = message.slice(1);
        			}
 			let country = document.getElementById(message);
+			//hide country clicked
+    			document.querySelectorAll('#countryList .country').forEach( function (e){
+    			   //if any display none, display block then hide what was clicked
+     			   if(e.style.display === "none"){e.style.display = "block";}
+    			   if(e.innerText === tempMessage.toUpperCase()){e.style.display = "none";}
+			})
+    
 			//add functionality to check message or country then do the following
 			//if country with active does not match remove it and display country
 			if(document.querySelectorAll('.countries-worked.active').length == 0){
