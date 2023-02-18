@@ -175,7 +175,7 @@ function drawVisualization() {
 						message += '#Rwanda'
 						break;
 					 case 13:
-						message += '#SolomonIsland'
+						message += '#SolomonIslands'
 						break;
 					case 14:
 						message += '#SriLanka'
