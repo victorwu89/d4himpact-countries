@@ -238,7 +238,7 @@ function drawVisualization() {
        			}
 			let country = document.getElementById(message);
 			//hide country clicked
-    			document.querySelectorAll('#countryList .country').forEach( function (e){
+    			document.querySelectorAll('#countrylist .country').forEach( function (e){
     			   //if any display none, display block then hide what was clicked
      			   if(e.style.display === "none"){e.style.display = "block";}
     			   if(e.innerText === message.toUpperCase()){e.style.display = "none";}
