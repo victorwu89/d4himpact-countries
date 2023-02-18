@@ -136,7 +136,7 @@ function drawVisualization() {
 		try {
 			switch(selection[0].row){
 					case 0:
-						message += '#China'
+						message += '#Shanghai'
 						break;
 					case 1:
 						message += '#Bangladesh'
@@ -175,7 +175,7 @@ function drawVisualization() {
 						message += '#Rwanda'
 						break;
 					 case 13:
-						message += '#Solomon'
+						message += '#SolomonIsland'
 						break;
 					case 14:
 						message += '#SriLanka'
@@ -184,7 +184,7 @@ function drawVisualization() {
 						message += '#Tanzania'
 						break;
 					case 16:
-						message += '#PNG'
+						message += '#PapuaNewGuinea'
 						break;
 					case 17:
 						message += '#Zambia'
