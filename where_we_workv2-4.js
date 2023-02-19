@@ -1,4 +1,3 @@
-const COUNTRY_ATTRIBUTES = "countries-worked where-we-work_container"
 var arr = [];
 google.charts.load('current', {
 		'packages':['geochart'],
@@ -129,6 +128,8 @@ function drawVisualization() {
 
 	var chart = new google.visualization.GeoChart(document.getElementById('map_1541709038503'));
 	function regionClickHandler(){
+		const COUNTRY_ATTRIBUTES = "countries-worked where-we-work_container"
+	        const regex = new RegExp("^[A-Z]+[a-z]*[A-Z]+")
 		var selection =  chart.getSelection(),
 				message = '',
 		    		tempMessage,
@@ -237,11 +238,17 @@ function drawVisualization() {
         		    message = message.slice(1);
        			}
 			let country = document.getElementById(message);
-			//hide country clicked
-    			document.querySelectorAll('#countryList .country').forEach( function (e){
-    			   //if any display none, display block then hide what was clicked
-     			   if(e.style.display === "none"){e.style.display = "block";}
-    			   if(e.innerText === message.toUpperCase()){e.style.display = "none";}
+			//hide country clicked 
+		    	//if country code has more than 1 uppercase
+		    	document.querySelectorAll('#countryList .country').forEach( function (e){
+				//if any display none, display block then hide
+				if(e.style.display === "none"){e.style.display = "block";}
+				if(regex.test(countryCode)){
+					//pull into multiple words
+					if(e.innerText === countryCode.replace(/[A-Z]/g, " $&").slice(1).toUpperCase()){e.style.display = "none";}
+				}else {
+					if(e.innerText === countryCode.toUpperCase()){e.style.display = "none";}
+				}
 			})
     
 			//add functionality to check message or country then do the following
