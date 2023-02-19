@@ -237,20 +237,21 @@ function drawVisualization() {
 			if (message.indexOf('#') !== -1){
         		    message = message.slice(1);
        			}
-			let country = document.getElementById(message);
+
 			//hide country clicked 
 		    	//if country code has more than 1 uppercase
 		    	document.querySelectorAll('#countryList .country').forEach( function (e){
 				//if any display none, display block then hide
 				if(e.style.display === "none"){e.style.display = "block";}
-				if(regex.test(countryCode)){
+				if(regex.test(message)){
 					//pull into multiple words
-					if(e.innerText === countryCode.replace(/[A-Z]/g, " $&").slice(1).toUpperCase()){e.style.display = "none";}
+					if(e.innerText === message.replace(/[A-Z]/g, " $&").slice(1).toUpperCase()){e.style.display = "none";}
 				}else {
-					if(e.innerText === countryCode.toUpperCase()){e.style.display = "none";}
+					if(e.innerText === message.toUpperCase()){e.style.display = "none";}
 				}
 			})
-    
+			
+    			let country = document.getElementById(message);
 			//add functionality to check message or country then do the following
 			//if country with active does not match remove it and display country
 			if(document.querySelectorAll('.countries-worked.active').length == 0){
