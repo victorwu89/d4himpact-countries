@@ -114,7 +114,6 @@ function drawVisualization() {
 	 'legend': 'none',
 	 'datalessRegionColor': '#e9e9e9',
 	 'displayMode': 'regions',
-	 'enableRegionInteractivity': 'true',
 	 'resolution': 'countries',
 	 'sizeAxis': {minValue: 1, maxValue:1,minSize:10,  maxSize: 10},
 	 'region':'world',
@@ -122,9 +121,8 @@ function drawVisualization() {
 	 'width': '115%',
 	 'height': '800',
 	 'magnifyingGlass': {enable: true, zoomFactor: 9},
-	 'tooltip': {textStyle: {color: '#444444'}, trigger:'focus', isHtml: true},
-	 'zoom': '1.25',
-	 'pointer-events': 'none'
+	 'tooltip': {textStyle: {color: '#444444'}, isHtml: true},
+	 'zoom': '1.25'
  };
 
 	var chart = new google.visualization.GeoChart(document.getElementById('map_1541709038503'));
