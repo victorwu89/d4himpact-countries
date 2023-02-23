@@ -124,6 +124,7 @@ function drawVisualization() {
 	 'magnifyingGlass': {enable: true, zoomFactor: 9},
 	 'tooltip': {textStyle: {color: '#444444'}, trigger:'focus', isHtml: true},
 	 'zoom': '1.25',
+	 'pointer-events': 'none'
  };
 
 	var chart = new google.visualization.GeoChart(document.getElementById('map_1541709038503'));
