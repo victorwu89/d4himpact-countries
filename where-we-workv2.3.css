@@ -460,9 +460,10 @@ div.areas-of-work-h2{
  #map_1541709038503, #legend-section-wrapper{
   	display: none;
   }
+  /* Removed for now 03/14/2023
   .areas-of-work-textlist-section{
   	display: block;
-	}
+  }*/
   body div.areas-of-work-h2{
  	 position: relative;
   }
