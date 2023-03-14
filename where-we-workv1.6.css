@@ -314,7 +314,7 @@ div.areas-of-work-h2{
 	-webkit-animation-iteration-count:1;
 }
 .countries-worked.where-we-work_container > div + hr{border-color:black;clear:both;margin: 5px 0 10px;}
-.countries-worked.where-we-work_container > div.case-studies-header{  
+.countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-spacer.country{  
 	  display: inline-block;
     font-weight: bold;
     font-family: Aileron, sans-serif;
@@ -322,7 +322,7 @@ div.areas-of-work-h2{
     line-height: 35px;
     padding-left: 1.5%;
  }
- .countries-worked.where-we-work_container > div.case-studies-spacer{
+ .countries-worked.where-we-work_container > div.case-studies-spacer, #countryList div.case-studies-header.country{
     display: inline-block;
     width: 70%;
     padding-right: 2%;
