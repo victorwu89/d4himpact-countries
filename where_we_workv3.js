@@ -241,7 +241,15 @@ function drawVisualization() {
 		    	//if country code has more than 1 uppercase
 		    	document.querySelectorAll('#countryList .country').forEach( function (e){
 				//if any display none, display block then hide
-				if(e.style.display === "none"){e.style.display = "block";}
+				if(e.style.display === "none"){
+					e.style.display = "block";
+				}else{
+				  //hide additional contents, need to loop through them
+				  for(let i = 0; i < document.querySelectorAll('.hide').length;i++){
+					document.querySelectorAll('.hide')[i].style.display = 'none';
+				   }
+			     	}
+      				
 				if(regex.test(message)){
 					//pull into multiple words
 					if(e.innerText === message.replace(/[A-Z]/g, " $&").slice(1).toUpperCase()){e.style.display = "none";}
