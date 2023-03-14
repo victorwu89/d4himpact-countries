@@ -313,7 +313,7 @@ div.areas-of-work-h2{
 	-webkit-animation:countrytextmotioncomp 2s;
 	-webkit-animation-iteration-count:1;
 }
-.countries-worked.where-we-work_container > div + hr, dive.hide hr{border-color:black;clear:both;margin: 5px 0 10px;}
+.countries-worked.where-we-work_container > div + hr, div.hide hr{border-color:black;clear:both;margin: 5px 0 10px;}
 .countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{  
 	  display: inline-block;
     font-weight: bold;
