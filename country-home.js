@@ -228,7 +228,7 @@ function drawVisualization() {
 			}
 			if( message === '#Error'){ return; }
 			arr.push(message);
-			$.featherlight(`${message}`);
+			
 		}catch (err){
 			console.log(err);
 		}
