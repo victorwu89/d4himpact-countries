@@ -1,0 +1,41 @@
+ /* CSS for splide css or carousel and featherlight or lightbox */ 
+  .splide__track {
+    overflow: visible;
+  }
+  .splide .slider2 .splide__pagination{
+    display: none;
+  }
+  .splide img{border-radius: 10px;}
+  @media screen and (max-width: 890px){
+      .three-sections img{width: 100%;}
+    
+    .section.one_blog .splide__slide.full_width{
+        display: block !important;
+    }
+    
+    .splide1 .splide__arrows{display:flex !important;}
+    
+  }
+  body #d4h-headline.headline .philanthropies-data a.link-22 {
+      color: #0094cc;
+  }
+  .navigation-bar.content-design{
+      padding-bottom: 10px;
+  }
+  /* featherlight */
+  .featherlight-content{
+      max-width:53%;
+    width:53%;
+    max-height:50%;
+    height: 50%;
+  }
+  .featherlight .featherlight-content{
+    border-bottom: none;
+    max-height: 354px;
+  }
+  .featherlight .featherlight-content, .featherlight .featherlight-close-icon.featherlight-close{
+      background-color: white;
+  }
+  .featherlight .featherlight-close-icon.featherlight-close{
+      width:40px;
+  }
