@@ -2,7 +2,7 @@
   .splide__track {
     overflow: visible;
   }
-  .splide .slider2 .splide__pagination{
+  .splide.slider2 .splide__pagination{
     display: none;
   }
   .splide img{border-radius: 10px;}
