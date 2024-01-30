@@ -108,7 +108,7 @@ function drawVisualization() {
  var options = {
 	 'backgroundColor': {fill:'#f5f5f5',stroke:'#FFFFFF' ,strokeWidth:0 },
 	 'colorAxis':  {minValue: 0 , maxValue: 30,
-		 colors: ['#0094cc','#0094cc','#5e5d5d','#0094cc','#5e5d5d','#5e5d5d','#5e5d5d','#0094cc','#0094cc','#5e5d5d','#5e5d5d','#0094cb','#0094cc','#0094cb','#0094cc',
+		 colors: ['#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#5e5d5d','#5e5d5d','#0094cb','#0094cc','#0094cb','#0094cc',
 		 '#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc','#0094cc', '#0094cc', '#0094cc','#0094cc']},
 	 'domain': 'IN',
 	 'legend': 'none',
