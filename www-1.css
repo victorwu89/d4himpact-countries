@@ -35,7 +35,7 @@ path[fill^="#4b6873"]{
 path[fill^="#1786b0"]{
    fill: #0094cc
 }
-path[fill^="#e9e9e9"]{
+path[fill^="#e9e9e9"], path[fill^="#e9e9e8"]{
 	stroke: #b8b8b8;
 }
 span.underline{
