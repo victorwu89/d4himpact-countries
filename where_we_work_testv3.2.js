@@ -106,7 +106,7 @@ function drawVisualization() {
  ivalue['Zimbabwe'] = '';
 
  var options = {
-	 'backgroundColor': {fill:'#f5f5f5',stroke:'#FFFFFF' ,strokeWidth:0 },
+	 'backgroundColor': {fill:'#FFFFFF',stroke:'#FFFFFF' ,strokeWidth:0 },
 	 'colorAxis':  {minValue: 0, maxValue: 30,
 		 colors: ['#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8',
 		 '#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8','#E9E9E8', '#E9E9E8', '#E9E9E8','#E9E9E8']},
