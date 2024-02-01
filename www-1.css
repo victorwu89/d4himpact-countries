@@ -1,0 +1,513 @@
+body #d4h-headline.headline .philanthropies-data a.link-22 {
+    color: #0094cc;
+}
+.where-we-work.hero{position:relative;z-index:9;}
+.navigation-bar.content-design{
+    padding-bottom: 10px;
+}
+#philanthropies-data-wrapper hr{
+	border-top: 4px solid black;
+    width: 14%;
+    position: absolute;
+    left: 0;
+    margin-left: -4%;
+}
+#how-we-work{
+	position: relative;
+	z-index: 9
+}
+path:not([fill^="#e9e9e9"]):hover {
+   cursor:pointer;
+}
+/* country border stroke */
+path[fill^="#c6c6c6"], path[fill^="#499178"], path[fill^="#0094cc"], path[fill^="#5e5d5d"], path[fill^="#4b6873"], 
+path[fill^="#1786b0"]{
+   /*stroke: #555;*/
+   stroke: #fff;
+}
+
+/* exclude white stroke for certain countries */
+/* Solomon Islands */
+
+path[fill^="#4b6873"]{
+   fill: #5e5d5d;
+}
+path[fill^="#1786b0"]{
+   fill: #0094cc
+}
+path[fill^="#e9e9e9"]{
+	stroke: #b8b8b8;
+}
+span.underline{
+	border-bottom:2px solid black;
+}
+span.underline_white{
+	border-bottom:2px solid white;
+}
+span.underline_white, span.underline{
+  padding-bottom: 8px;
+}
+.bullet-list{
+  font-family: Montserrat;
+  color: white;
+}
+.bullet-list li a{
+	color: white;
+}
+.bullet-list li a:hover{
+	text-decoration: underline;
+}
+.header-home-link.w--current{
+	padding: 5px;
+}
+h2.monument-font{
+  font-family: Monumentextended,sans-serif;
+ 	margin-bottom:15px;
+}
+h2.spacegrotesk-font, h2.montserrat-font{
+  font-family: Montserrat,sans-serif;
+ 	margin-bottom:15px;
+  font-weight:bold;
+  font-size:40px;
+}
+div.areas-of-work-h2{
+	  position: absolute;
+    z-index: 9999;
+}
+#map_1541709038503{
+    /*margin-top: -51vh;*/
+    margin-top: -319px;
+    z-index: -999;
+    margin-left: -10vw;
+}
+.partnering-column-image{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.partnering-column-image:hover{
+	-webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none);
+}
+.areas-of-work-textlist-section{
+	display: none;
+}
+/* Light box */
+.lightbox{
+  display: none;
+}
+.lightbox h2{
+	font-family: Montserrat,sans-serif;
+  font-weight: 500;
+	margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+.lightbox hr{
+	border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+.featherlight-content .lightbox .active{
+	font-style: italic;
+  font-weight: normal;
+}
+.featherlight-content strong{
+	display: block;
+  padding-bottom: 1.2vh;
+}
+.google-visualization-tooltip{
+	font-size: 10.5px !important;
+  width: 275px !important;
+}
+.featherlight-content{
+	max-width:53%;
+  width:53%;
+  max-height:50%;
+  height: 50%;
+}
+.featherlight .featherlight-content{
+  border-bottom: none;
+  max-height: 354px;
+}
+.featherlight .featherlight-content, .featherlight .featherlight-close-icon.featherlight-close{
+	background-color: white;
+}
+.featherlight .featherlight-close-icon.featherlight-close{
+	width:40px;
+}
+.vignette-wrapper{
+  border-right: 0.5px solid #A09A33;
+  display:inline-block;
+  height: 100%;
+  min-height: 250px;
+  font-size:13px;
+  padding-right: 2%;
+  width:70%;
+}
+.countries-worked.where-we-work_container .vignette-wrapper{
+  font-size: 15px;
+}
+.vignette-wrapper p{
+	line-height: 19px;
+}
+.vignette-wrapper p, .type-work p{
+	 font-family: Montserrat,sans-serif;
+}
+.type-work{
+    width: 25%;
+    display:inline-block;
+    padding-left: 1.5%;
+    height: 85%;
+    font-size: 11.5px;
+    vertical-align:top;
+}
+.type-work.updated, .type-work.case-studies {
+    font-size: 13px;
+}
+.type-work.updated {
+    width: 100%;
+    padding-left: 0%;
+}
+.type-work p{
+     margin-bottom:0px;
+     line-height:19px;
+     font-weight: 600;
+}
+.type-work .less-lineHeight{
+     line-height:14px;
+     margin-top:3px;
+}
+.type-work .less-lineHeight + p{
+  margin-top:4px;
+}
+/*Map Section*/
+.one_third{
+  display: inline-block;
+  padding-left: 5%;
+  vertical-align: top;
+}
+.one_fourth, .one_fourth_longer{
+	display: inline-block;
+  margin: 0 auto;
+  padding-left: 2%;
+  vertical-align: top;
+}
+.one_fourth{
+	width: 23%;
+}
+.one_fourth_longer{
+	width: 27%;
+}
+.one_fourth h3, .one_fourth_longer h3, .one_third h3, .one_third_block h3{
+	font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.one_fourth h3 span, .one_fourth_longer h3 span, .one_third h3 span, .one_third_block h3 span{
+	  border-bottom: 3px solid black;
+    padding-bottom: 3px;
+}
+.one_fourth p, .one_fourth_longer p, .one_third p, .one_third_block p{
+		font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    width: 90%;
+    margin-left: 8%;
+}
+.one_fourth p a, .one_fourth_longer p a, .one_third p a, .one_third_block p a{
+   color: black;
+}
+.one_fourth p a:hover, .one_fourth_longer p a:hover, .one_third p a:hover, .one_third_block p a:hover{
+   text-decoration: underline;
+}
+.one_third_block{
+  display: block;
+  margin: 0 auto;
+  padding: 5% 0 0 5%;
+}
+.one_third, .one_third_block{
+	width: 33%;
+}
+
+/*MISC*/
+.no-margin-bottom{
+	margin-bottom:3px;
+}
+.padding{
+	padding: 20px;
+}
+.padding_bottom{
+	padding-bottom: 20px;
+}
+.partnering-hr{
+ 	margin-left: -15px;
+  margin-top: 5px;
+	width: 10%;
+}
+.partnering-hr hr{
+	border-top: 2px solid white;
+}
+.white{color: white;}
+/*#d4h-headline a{color:#fff}*/
+#d4h-headline a:hover{color:#2196f3}
+
+/*legend styling*/
+.graph {
+    float: left;
+    width: 600px;
+}
+
+.graph-legend {
+    margin: 1em 0;
+    margin-left: 5vw;
+    margin-top: -6.4vw;
+    padding: 2%;
+    text-align: right;
+}
+
+.graph-legend dl {
+    zoom:1;margin: 0;
+    padding: 0.3em;
+    list-style: none;
+    font-size: 19px;
+    display:inline-block;
+    
+}
+
+.graph-legend dl:before,.graph-legend dl:after {
+    content: "";
+    display: table;
+}
+
+.graph-legend dl:after {
+    clear: both;
+}
+
+.graph-legend dl:nth-child(odd) {
+    width: 15vw;
+    background: #f7f7f7;
+    vertical-align:top;
+}
+.graph-legend dl:nth-child(even) {
+    width: 19vw;
+    background: #f7f7f7;
+     vertical-align:top;
+}
+
+.graph-legend dd {
+    float: right;
+}
+
+.graph-legend span {
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    margin-right: 0.5em;
+    vertical-align: baseline
+}
+
+/* MAP FIX TO DISPLAY DROPDOWN INSTEAD OF LIGHTBOX */
+.countries-worked.where-we-work_container{display: none;margin-top:3%;margin-bottom:3%;}
+.countries-worked.where-we-work_container.active{
+	display: block;
+        animation: countrytextmotion 2s ease-in;
+  
+  	/* Safari and Chrome */
+	-webkit-animation:countrytextmotioncomp 2s;
+	-webkit-animation-iteration-count:1;
+}
+.countries-worked.where-we-work_container > div + hr, div.hide hr{border-color:black;clear:both;margin: 5px 0 10px;}
+.countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{  
+	  display: inline-block;
+    font-weight: bold;
+    font-family: Aileron, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    padding-left: 1.5%;
+ }
+ .countries-worked.where-we-work_container > div.case-studies-spacer, #countryList div.case-spacer.country{
+    display: inline-block;
+    width: 70%;
+    padding-right: 2%;
+ }
+ .where-we-work_container .vignette-wrapper{border-right: none;}
+ /* animations */
+ @keyframes countrytextmotion{
+ 	from {opacity:0;}
+        to {opacity:1;}
+ }
+ 
+ /* Safari and Chrome */
+ @-webkit-keyframes countrytextmotioncomp 
+ {
+ from {opacity: 0;}
+ to {opacity: 1;}
+ }
+/* end MAP FIX */
+
+
+/* MOBILE, Tablet, Responsive Start*/
+@media only screen and (max-width: 479px){
+	.philanthropies-data-wrapper .headline{
+  	width: 95%;
+    font-size: 20px;
+  }
+  div div h2.monument-font, div div h2.spacegrotesk-font, div div h2.montserrat-font{
+  	font-size: 25px;
+  }
+}
+@media only screen and (max-width: 523px){
+	h2.white{
+  	font-size:20px;
+  }
+  .three-ps-section a.learn-more-btn{
+  	width: 42%;
+  }
+}
+@media only screen and (max-width: 550px){
+	h2{
+  	font-size:20px;
+  }
+  div h2.monument-font, div h2.spacegrotesk-font, div h2.montserrat-font{
+  	font-size: 30px;
+  }
+  h2 .underline{
+  	border-bottom: 2px solid black;
+    padding-bottom: 6px;
+  }
+  div.one_fourth, div.one_fourth_longer{
+  	width: 85%;
+    padding: 3%;
+  }
+  div.one_fourth h3, div.one_fourth_longer h3{
+  	font-size: 24px;
+    font-weight: 700;
+  }
+  div.vignette-wrapper{
+  	border-right: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  div.type-work{
+  	width: 100%;
+    padding: 5% 2%;
+  }
+  div.lightbox.featherlight-inner h2{
+  	font-size: 4vw;
+  }
+  div.partnering-column-image{
+		-webkit-filter: none; /* Safari 6.0 - 9.0 */
+  	filter: none;
+	}
+}
+@media only screen and (max-width: 725px){
+	 div.three-ps-section .column-image-text .w-col-6, div.three-ps-section .column-text-image .w-col-6{
+		width: 100%;
+  }
+  .three-ps-section .partnering-column-text{
+  	text-align: left;
+    margin-top: 4%;
+  }
+  .three-ps-section .learn-more-btn{
+  	margin-left: 0;
+    margin-right: 0;
+    width: 30%;
+  }
+  h2.monument-font, h2.spacegrotesk-font, h2.montserrat-font{
+  	font-size: 35px;
+  }
+  h4.people-h4, .partnering-column-text .subheading-1{
+  	text-align: left;
+  }
+  .column-text-image{
+  	display: none;
+  }
+}
+/*resizing for partnering with us section*/
+@media only screen and (max-width: 743px){
+	.partnering-with-us-h2-wrapper h2{
+  	padding: 0 5%;
+  }
+}
+/* resizing for CDC section */
+@media only screen and (max-width: 763px){
+	div.cdc{
+  	padding: 2%;
+  }
+  div.cdc .cdc_wrapper{
+  	width: 100%; 
+  }
+  div.cdc .cdc_wrapper .column-23{
+  	right: 0;
+    margin-bottom: 30px;
+  }
+  div.cdc .cdc_wrapper .column-24{
+  	left: 0; 
+  }
+}
+@media only screen and (max-width: 767px){
+	.three-ps-section-flex img{
+  	padding-bottom: 0;
+    width: 100%;
+  }	
+ 	.partnering-with-us-h2-wrapper h2{
+  	padding: 0 2%;
+  }
+}
+@media only screen and (max-width: 768px){
+	.philanthropies-data{
+  	padding-left: 10%;
+  }
+}
+@media only screen and (max-width: 800px){
+ #map_1541709038503, #legend-section-wrapper{
+  	display: none;
+  }
+  /* Removed for now 03/14/2023
+  .areas-of-work-textlist-section{
+  	display: block;
+  }*/
+  body div.areas-of-work-h2{
+ 	 position: relative;
+  }
+}
+@media only screen and (max-width: 880px){
+	.one_fourth, .one_fourth_longer{
+  	width: 49%;
+  }
+}
+@media only screen and (max-width: 970px){
+	.featherlight .featherlight-content{
+  	max-width:	75%;
+  	width:	75%;
+  }
+}
+@media only screen and (max-width:1049px){
+	.three-ps-section .column-image-text .w-col-6, .three-ps-section .column-text-image .w-col-6{
+		width: 42%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width:1119px){
+	.three-ps-section .column-image-text, .three-ps-section .column-text-image{
+  	padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1246px){
+	h3.continent{
+  	font-size:1.7vw
+  }
+}
+	.three-ps-section .column-image-text, .three-ps-section .column-text-image{
+  	padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media only screen and (max-width:1350px){
+	.three-ps-section .column-image-text, .three-ps-section .column-text-image{
+  	width: 100%;
+  }
+}
+@media only screen and (max-width: 1394px){
+	.one_fourth h3 span, .one_fourth_longer h3 span, .one_third h3 span, .one_third_block h3 span{
+  	padding-bottom: 0;
+  }
+}
