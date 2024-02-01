@@ -108,8 +108,8 @@ function drawVisualization() {
  var options = {
 	 'backgroundColor': {fill:'#f5f5f5',stroke:'#FFFFFF' ,strokeWidth:0 },
 	 'colorAxis':  {minValue: 0 , maxValue: 30,
-		 colors: ['#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9',
-		 '#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9','#d9d9d9', '#d9d9d9', '#d9d9d9','#d9d9d9']},
+		 colors: ['#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8',
+		 '#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8','#b8b8b8', '#b8b8b8', '#b8b8b8','#b8b8b8']},
 	 'domain': 'IN',
 	 'legend': 'none',
 	 'datalessRegionColor': '#e9e9e9',
