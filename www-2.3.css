@@ -163,10 +163,13 @@ div.areas-of-work-h2{
 .type-work.updated, .type-work.case-studies {
     font-size: 13px;
 }
+/* Map Sidebar */
 #map-sidebar + .type-work.case-studies {
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
 }
+#map-sidebar + .type-work.case-studies p{ line-height:28px; }
+#map-sidebar .case-studies-header{font-size:25px;}
 .type-work.updated {
     width: 100%;
     padding-left: 0%;
