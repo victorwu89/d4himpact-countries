@@ -323,15 +323,15 @@ div.areas-of-work-h2{
 }
 hr.map-divider{width:80%;}
 .countries-worked.where-we-work_container > div + hr, div.hide hr, #map-sidebar hr, hr.map-divider{border-color:black;clear:both;margin: 5px 0 10px;}
-.countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{font-size: 18px;}
-#map-sidebar .case-studies-header, .countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{  
+.countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country, #countryList2 div.case-studies-header.country, #countryList3 div.case-studies-header.country{font-size: 18px;}
+#map-sidebar .case-studies-header, .countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country, #countryList2 div.case-studies-header.country, #countryList3 div.case-studies-header.country{  
     display: inline-block;
     font-weight: bold;
     font-family: Aileron, sans-serif;
     line-height: 35px;
     padding-left: 1.5%;
  }
- .countries-worked.where-we-work_container > div.case-studies-spacer, #countryList div.case-spacer.country{
+ .countries-worked.where-we-work_container > div.case-studies-spacer, #countryList div.case-spacer.country, #countryList2 div.case-spacer.country, #countryList3 div.case-spacer.country{
     display: inline-block;
     width: 70%;
     padding-right: 2%;
