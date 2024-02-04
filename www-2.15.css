@@ -176,6 +176,8 @@ div.areas-of-work-h2{
 }
 #map-sidebar + .type-work.case-studies p{ line-height:28px; }
 #map-sidebar .case-studies-header, h3.mapsb-country-header{font-size:22px;}
+case-studies-wrapper-div{ padding-right: 8px; }
+
 .type-work.updated {
     width: 100%;
     padding-left: 0%;
