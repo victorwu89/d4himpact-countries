@@ -321,7 +321,8 @@ div.areas-of-work-h2{
 	-webkit-animation:countrytextmotioncomp 2s;
 	-webkit-animation-iteration-count:1;
 }
-.countries-worked.where-we-work_container > div + hr, div.hide hr, #map-sidebar hr{border-color:black;clear:both;margin: 5px 0 10px;}
+hr.map-divider{width:80%;}
+.countries-worked.where-we-work_container > div + hr, div.hide hr, #map-sidebar hr, hr.map-divider{border-color:black;clear:both;margin: 5px 0 10px;}
 .countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{font-size: 18px;}
 #map-sidebar .case-studies-header, .countries-worked.where-we-work_container > div.case-studies-header, #countryList div.case-studies-header.country{  
     display: inline-block;
