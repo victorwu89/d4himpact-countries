@@ -337,6 +337,9 @@ hr.map-divider{width:80%;}
     padding-right: 2%;
  }
  .where-we-work_container .vignette-wrapper{border-right: none;}
+ .vignette-text-wrapper div.vignette-wrapper {
+    border-right: 1px solid black;
+ }
  /* animations */
  @keyframes countrytextmotion{
  	from {opacity:0;}
@@ -394,9 +397,6 @@ hr.map-divider{width:80%;}
     width: 100%;
     border-bottom: 1px solid black;
   }
-  .vignette-text-wrapper div.vignette-wrapper {
-    border-right: 1px solid black;
- }
   div.type-work{
   	width: 100%;
     padding: 5% 2%;
