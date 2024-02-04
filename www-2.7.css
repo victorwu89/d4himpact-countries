@@ -394,6 +394,7 @@ hr.map-divider{width:80%;}
     width: 100%;
     border-bottom: 1px solid black;
   }
+  .vignette-text-wrapper .vignette-wrapper{border-right: 1px solid black;}	
   div.type-work{
   	width: 100%;
     padding: 5% 2%;
