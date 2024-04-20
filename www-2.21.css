@@ -347,7 +347,7 @@ hr.map-divider{width:80%;}
  }
  .where-we-work_container .vignette-wrapper{border-right: none;}
  .vignette-text-wrapper div.vignette-wrapper {
-    border-right: 1px solid white;
+    border-right: 1px solid black;
  }
  /* animations */
  @keyframes countrytextmotion{
